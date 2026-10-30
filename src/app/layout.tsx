@@ -1,7 +1,10 @@
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <h1>Route Layout</h1>
+        {children}
+      </body>
     </html>
   );
 }
